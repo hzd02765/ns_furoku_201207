@@ -10,14 +10,13 @@
 </head>
 <body>
 
-<section data-role="page" data-title="jQuery Mobile">
+<section id="index" data-role="page" data-title="jQuery Mobile">
 
   <header data-role="header">
     <h1>jQuery Mobile</h1>
   </header>
 
-  <div data-role="content">
-    <p>jQuery Mobile リファレンス</p>
+  <div id="index_content" data-role="content">
 <?php
    sleep(5);
    print('jQuery Mobile リファレンス');

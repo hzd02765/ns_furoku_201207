@@ -1,4 +1,4 @@
-$(docment).bind('mobileinit', function(){
+$(document).bind('mobileinit', function(){
     $.mobile.dialog.prototype.options.closeBtnText = '閉じる';
 });
 
